@@ -1,2 +1,2 @@
 # DeepLearningStudy
-读python与深度学习中写（抄）的demo
+读python与深度学习时写（抄）的demo
