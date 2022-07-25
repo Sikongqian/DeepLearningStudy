@@ -31,3 +31,14 @@ def native_matrix_dot (x,y):
             column_y = y[:,j]
             z[i,j] = native_vector_dot(row_x, column_y)
     return z
+
+#张量变形
+x = np.array([[0, 1],[2, 1],[4, 5]])
+print(x.shape)
+x = x.reshape((6, 1))
+print(x)
+x = x.reshape((2, 3))
+
+x = np.transpose(x)#矩阵转置
+x = np.zeros((300, 20))#零矩阵
+
